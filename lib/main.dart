@@ -82,7 +82,7 @@ class _calcaState extends State<calca> {
 
   String pastResolution = '';
 
-/////////////////////////////////////////
+
 
   Widget buttonT(value) {
     return Padding(
@@ -106,7 +106,7 @@ class _calcaState extends State<calca> {
     );
   }
 
-  ////############################
+  
   void onPressedButton(String value) {
     if (value == Btn.del) {
       delete();
